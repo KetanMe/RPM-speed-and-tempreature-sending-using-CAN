@@ -1,3 +1,25 @@
+# Table of Content
+
+1. [Introduction](#introduction)
+2. [MCP2515 CAN module](#mcp2515-can-module)
+    - [Interfacing with ESP8266](#interfacing-with-esp8266)
+        - [Pin connections](#pin-connections)
+3. [Hardware Implementation](#hardware-implementation)
+    - [Wiring and Termination Resistors](#wiring-and-termination-resistors)
+    - [Importance of 120 Ohm Termination Resistor](#importance-of-120-ohm-termination-resistor)
+    - [Effects of Incorrect Termination Resistance](#effects-of-incorrect-termination-resistance)
+4. [Code for Sending RPM, Speed, and Temperature on CAN Bus](#code-for-sending-rpm-speed-and-temperature-on-can-bus)
+    - [Explanation of the Code](#explaination-of-the-code)
+        - [Libraries and Constants](#1-libraries-and-constants)
+        - [Global Variables and Structs](#2-global-variables-and-structs)
+        - [Functions](#3-functions)
+        - [Setup Function](#4-setup-function)
+        - [Loop Function](#5-loop-function)
+        - [State Logic](#6-state-logic)
+        - [Sending Data via CAN](#7-sending-data-via-can)
+5. [Output](#output)
+
+
 ## Introduction
 In this section, the data is taken from previously interfaced rotary encoder and tempreature sensors which is then sent on CAN bus using MCP2515 module. 
 
