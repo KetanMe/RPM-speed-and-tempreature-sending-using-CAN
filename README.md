@@ -1,5 +1,6 @@
-# Table of Content
+# CAN Bus Data Transmission (RPM, Speed, Temperature)
 
+## Table of Contents
 1. [Introduction](#introduction)
 2. [MCP2515 CAN module](#mcp2515-can-module)
     - [Interfacing with ESP8266](#interfacing-with-esp8266)
